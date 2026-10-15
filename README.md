@@ -19,18 +19,22 @@ are switched off by default.
 |---|---|
 | **4-part stems** | Every track can be split into **VOCALS, HARMONY, BASS and DRUMS**. The stems are made on the Mac and played on the deck. |
 | **SLIP LOOP pads 1-4** | Switch VOCALS, HARMONY, BASS and DRUMS on and off. |
-| **SLIP LOOP pads 5-8** | **Echo Out** of the part above: the part drops out and its echo keeps going, in time with the track. |
-| **ISOLATOR ↔ STEMS** | **SHIFT + CUE** on a channel turns its HI / MID / LOW knobs into stem volumes (HI = vocals, MID = harmony, LOW = bass + drums). Press again to go back. One channel can be on STEMS while the other stays on ISOLATOR. |
-| **STEMS panel on the screen** | One control per part, with its name and colour, and a level you can slide. |
+| **SLIP LOOP pads 5-8** | **Echo Out** of the part above: the part drops out and its echo keeps going, one beat long, in time with the track. |
+| **Pad colours** | Each part has its own colour on the pads and on the screen: vocals green, harmony red, bass purple, drums blue. |
+| **ISOLATOR ↔ STEMS** | **Tap SHIFT + CUE** on a channel: its HI / MID / LOW knobs become stem volumes (HI = vocals, MID = harmony, LOW = bass + drums). Tap again to go back. One channel can be on STEMS while the other stays on ISOLATOR. **Hold SHIFT + CUE** to open the STEMS panel. |
+| **STEMS panel on the screen** | One control per part, with its name and colour, and a level you can slide. The stems tab shows only the parts the track has. |
 | **Colour stems waveform** | The main waveform is drawn in the parts' colours, so you see which part is playing. It follows the knobs as you turn them. |
-| **Fast stems loading** | Stems start playing right away; the rest of the file loads in the background while the track plays. |
+| **Fast stems loading** | Stems start playing right away; the rest of the file loads in the background while the track plays. Large reads tuned for the deck's USB, so going from 2 to 4 stems is quicker. |
+| **Stock when there are no stems** | A track without stems plays exactly as stock: pads and audio stay native. |
 | **MAKE STEMS from the deck** | On a track without stems, tap **MAKE STEMS**: the Mac (connected to the rear USB port) splits it and the deck loads the stems by itself when they are ready. |
 
 ## 🥁 Roll and effects
 
 | Feature | On the deck |
 |---|---|
-| **ROLL on the touch screen** | The ROLL tab shows a row of squares from **1/1 to 1/32**. Tap and slide: the snare roll locks to the beat grid, wherever you start. |
+| **Snare roll, RMX-1000 style** | A snare roll in time with the MASTER deck, with a snare included (you can use your own from the USB stick). |
+| **ROLL on the touch screen** | The ROLL tab shows a row of squares from **1/1 to 1/32**. Tap and slide: the snare roll locks to the beat grid, wherever you start, and keeps re-locking while it plays. |
+| **Roll timing** | The roll hits slightly ahead of the grid to make up for the deck's audio delay; the amount can be set on the USB stick. |
 | **HOLD** | Keeps the roll going without holding your finger on the screen. |
 | **Roll filter** | While holding, swipe **up** for a high-pass, **down** for a low-pass. |
 | **Roll volume** | With the AUX selector on **PORTABLE**, the **AUX LEVEL** knob sets the roll volume (LINE stays a normal input). |
@@ -41,22 +45,32 @@ are switched off by default.
 
 | Feature | On the deck |
 |---|---|
-| **Instant loops from CALL** | With no loop running, **CALL ◀** sets a **4-beat** loop and **CALL ▶** an **8-beat** loop. |
-| **Custom BEAT JUMP** | BEAT JUMP and BEAT JUMP 2: 16 pads, each with its own jump (from ½ to 64 beats, forward or back), with the number shown on the pad. The pad lights turn off when the jump would leave the track. |
+| **Instant loops from CALL** | With no loop running, **CALL ◀** sets a **4-beat** loop and **CALL ▶** an **8-beat** loop. With a loop running, CALL ▶ doubles it. |
+| **Custom BEAT JUMP** | BEAT JUMP and BEAT JUMP 2: 16 pads, each with its own jump (from ½ to 64 beats, forward or back), with the number shown on the pad. Long jumps are measured on the track, not on the buffer. |
+| **BEAT JUMP 2** | Ready out of the box with **8 / 16 / 32 / 64** beats; the original BEAT JUMP stays as it was. |
+| **Beat jump lights** | BEAT JUMP 2 pads light in the same colour as BEAT JUMP 1, steady, and turn off when the jump would leave the track (near the start or the end). |
+| **Beat jump without quantize** | Beat jump also works with QUANTIZE off. |
 | **KEY SHIFT** | KEY panel: **-12 to +12 semitones** per deck, with no clicks when you engage it or go back to 0. |
 | **Key Sync** | **SHIFT + BEAT SYNC** takes the deck to the key of the MASTER deck. BEAT SYNC on its own stays the normal sync. |
-| **Key Match** | Harmonic suggestions in BROWSE: compatible keys are marked next to the tracks. |
+| **Key Match** | Harmonic suggestions in BROWSE: compatible keys are marked next to the tracks, with the Camelot key shown as a pill and numbers aligned on the right. |
 
 ## 🎨 Screen
 
 | Feature | On the deck |
 |---|---|
-| **LIGHT theme** | White screen with dark text and a white waveform. Switch it in **Utility → DISPLAY MODE** or with **SHIFT + SHORTCUT**. |
+| **LIGHT theme** | White screen with dark text, also in lists and Utility, and a white waveform pane. Switch it in **Utility → DISPLAY MODE** or with **SHIFT + SHORTCUT**. The deck starts in dark mode. |
+| **Blue selection** | The mod's tabs use the native Pioneer blue for the selected tab, in both themes, with no frame. |
 | **Pioneer-style layout** | New panels, tabs and buttons drawn to match the native look, in both dark and light. |
 | **ROLL and FX tabs** | They replace STATUS and BEAT FX on the touch screen. |
 | **Asshole mode** | Tap the eye next to a deck's title to hide or show the track name. |
 | **Custom logo** | Your own logo on the main screen. |
-| **Loading notice** | The deck shows a message while the mod starts. |
+| **Loading notice** | The deck shows a message at the top of the screen while the mod starts. |
+
+## 📡 Now playing
+
+| Feature | |
+|---|---|
+| **Now playing** | The deck sends what is playing (track, BPM, key, master) to a computer connected to the rear USB port, for streams and overlays. |
 
 ## 🔍 Browse
 
@@ -84,9 +98,11 @@ are switched off by default.
 | **Make stems** *(being tested)* | One button: reads the stick's rekordbox export, installs the separation engine the first time, and makes 4-part stems for the chosen playlist directly on the stick. Advanced options are tucked away. |
 | **Stems on the Mac GPU** | The separation runs on the Mac (the deck does not have the power to do it). |
 | **Stems from the deck** | Starts the link with the deck over the rear USB cable, for MAKE STEMS. |
-| **Samples, Beat Jump, Roll** | Pages to set up sample banks, beat-jump pads and the roll. |
-| **Look** | Light/dark theme and logo. |
-| **Playlist reorder** | Change the playlist order; the deck shows the new order in BROWSE. |
+| **All in one** | The stick always gets every feature: no modules to choose. |
+| **Samples** | Sample banks per deck: colour, volume, mode and label for each pad. |
+| **Look** | Light/dark theme, logo and BETA switches. |
+| **Self-contained** | FFmpeg and Python are built in: nothing else to install on the Mac. |
+| **Italian and English** | The app opens in Italian by default. |
 | **Old mod warning** | Tells you when the stick carries an older mod than the app. |
 | **Automatic updates** *(being tested)* | Tells you when a new version is out; **Update now** downloads it, replaces the app and reopens it. |
 
