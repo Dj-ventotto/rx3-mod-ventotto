@@ -5,6 +5,9 @@ A mod for the **Pioneer XDJ-RX3** (firmware 1.20), plus **XDJ-RX3 Toolkit**, a M
 The mod runs **in RAM only**: it starts from the USB stick and never writes to the deck's system.
 Switch the RX3 off and everything is back to stock.
 
+> 🚀 **Available soon.** The mod and the Mac app are not public yet: watch or star this
+> repository to know when they come out.
+
 > Personal, unofficial project, not affiliated with Pioneer DJ / AlphaTheta.
 
 **Status:** everything below has been tested on a real XDJ-RX3, except two items still being
