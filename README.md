@@ -121,6 +121,19 @@ Switch the RX3 off and everything is back to stock.
 
 ---
 
+## 💡 Coming next: DMX lights from the deck *(in research)*
+
+No computer on stage: a USB-DMX interface in the RX3's second top USB port drives DMX lights
+directly, in time with the MASTER deck's beat grid.
+
+| Plan | Status |
+|---|---|
+| **USB-DMX on the deck** | The RX3 sees USB devices and allows direct USB access; an FTDI-based "DMX USB Pro" interface is the first target. Not built yet. |
+| **REC button for the lights** | With the DMX interface plugged in, REC starts and stops the light show; without it, REC records as usual. |
+| **Light show** | Flashes on the beat, one colour per roll sound (KICK, SNARE, CLAP, HAT), strobe on 1/16 and 1/32 rolls. First target: a Behringer Stage TRI LED bar. |
+
+---
+
 ## 💾 BETA: mix without the USB stick
 
 Pull the USB stick out (or press USB STOP) and the **MASTER track keeps playing** from the deck's memory (up to 14 MB).
