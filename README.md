@@ -10,9 +10,19 @@ Switch the RX3 off and everything is back to stock.
 
 > Personal, unofficial project, not affiliated with Pioneer DJ / AlphaTheta.
 
-**Status:** everything below has been tested on a real XDJ-RX3, except two items still being
-tested: **automatic app updates** and **"Make stems" in the Mac app**. Features marked **BETA**
-are switched off by default.
+**Status:** everything below has been tested on a real XDJ-RX3, except the items marked
+*(being tested)*. Features marked **BETA** are switched off by default.
+
+## 🆕 What's new (October 16, 2026)
+
+| Update | What changed |
+|---|---|
+| **Sample-accurate roll** *(being tested)* | Roll hits are now placed on the audio thread, on the exact sample where the MASTER deck's beat grid passes, also with the pitch fader moved. No more drifting or late hits. |
+| **Roll kit** *(being tested)* | Four sounds on the ROLL row: **KICK, SNARE, CLAP, HAT**. Tap one to switch, even while the roll is playing. |
+| **Resonant roll filter** *(being tested)* | The swipe filter now resonates: swipe down for a low-pass (12 kHz to 150 Hz), up for a high-pass (30 Hz to 4 kHz). |
+| **Stems fix** *(being tested)* | A paused deck with stems loaded no longer overloads the audio, which could make effects stutter or freeze the deck. |
+| **Crash log** | If the player stops, its log is saved to the USB stick on its own. |
+| **Mac app** | New look, and app updates build much faster. |
 
 ---
 
@@ -35,11 +45,11 @@ are switched off by default.
 
 | Feature | On the deck |
 |---|---|
-| **Snare roll, RMX-1000 style** | A snare roll in time with the MASTER deck, with a snare included (you can use your own from the USB stick). |
-| **ROLL on the touch screen** | The ROLL tab shows a row of squares from **1/1 to 1/32**. Tap and slide: the snare roll locks to the beat grid, wherever you start, and keeps re-locking while it plays. |
-| **Roll timing** | The roll hits slightly ahead of the grid to make up for the deck's audio delay; the amount can be set on the USB stick. |
+| **Roll, RMX-1000 style** | A roll in time with the MASTER deck, with four sounds included: **KICK, SNARE, CLAP, HAT** (you can use your own from the USB stick). |
+| **ROLL on the touch screen** | The ROLL tab shows a row of squares from **1/1 to 1/32**, then **KICK SNARE CLAP HAT** and **HOLD**. Tap and slide: the roll locks to the beat grid, wherever you start. |
+| **Roll timing** | Each hit lands on the exact sample of the beat grid, on the audio thread, following the deck's tempo. A fine offset can still be set on the USB stick. |
 | **HOLD** | Keeps the roll going without holding your finger on the screen. |
-| **Roll filter** | While holding, swipe **up** for a high-pass, **down** for a low-pass. |
+| **Roll filter** | While holding, swipe **up** for a resonant high-pass, **down** for a resonant low-pass. |
 | **Roll volume** | With the AUX selector on **PORTABLE**, the **AUX LEVEL** knob sets the roll volume (LINE stays a normal input). |
 | **BEAT FX on LOW / MID / HIGH** | In the FX tab, choose which bands the Beat FX works on: just the lows, the mids, the highs, or any mix. The rest stays clean. |
 | **Sampler** | **RELEASE FX** (SHIFT + SLIP LOOP): 8 sample pads per deck (one shot, hold, loop, latch). The FX tab has a **SAMPLE VOLUME** slider. |
