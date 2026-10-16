@@ -8,6 +8,8 @@ Switch the RX3 off and everything is back to stock.
 > 🚀 **Available soon.** The mod and the Mac app are not public yet: watch or star this
 > repository to know when they come out.
 
+> **Created and tested by Ventotto, built by Ventotto and Claude (AI).**
+
 > Personal, unofficial project, not affiliated with Pioneer DJ / AlphaTheta.
 
 **Status:** everything below has been tested on a real XDJ-RX3, except the items marked
