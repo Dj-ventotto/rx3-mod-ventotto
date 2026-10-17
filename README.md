@@ -15,7 +15,15 @@ Switch the RX3 off and everything is back to stock.
 **Status:** everything below has been tested on a real XDJ-RX3, except the items marked
 *(being tested)*. Features marked **BETA** are switched off by default.
 
-## 🆕 What's new (October 16, 2026)
+## 🆕 What's new (October 17, 2026)
+
+| Update | What changed |
+|---|---|
+| **Roll locks to the beat grid** *(being tested)* | The roll now really follows the MASTER deck's beat grid. Before, it often fell back to a BPM timer and started on your touch instead of on the beat. |
+| **Roll keeps time between squares** *(being tested)* | Sliding from 1/1 to 1/2 and back to 1/1 stays on the beat, also on tracks without a beat grid. |
+| **Two SOUND COLOR FX at once** *(being tested)* | Hold the SOUND COLOR FX button that is on and press another: both effects play, both buttons light, and the COLOR knob drives both. A single press works as stock. |
+
+## Earlier (October 16, 2026)
 
 | Update | What changed |
 |---|---|
@@ -53,6 +61,7 @@ Switch the RX3 off and everything is back to stock.
 | **HOLD** | Keeps the roll going without holding your finger on the screen. |
 | **Roll filter** | While holding, swipe **up** for a resonant high-pass, **down** for a resonant low-pass. |
 | **Roll volume** | With the AUX selector on **PORTABLE**, the **AUX LEVEL** knob sets the roll volume (LINE stays a normal input). |
+| **Two SOUND COLOR FX** *(being tested)* | Hold the SOUND COLOR FX that is on and press a second one: both play, both buttons light, and COLOR drives both. Press either one again to keep only the other; press a third one to switch to it alone. |
 | **BEAT FX on LOW / MID / HIGH** | In the FX tab, choose which bands the Beat FX works on: just the lows, the mids, the highs, or any mix. The rest stays clean. |
 | **Sampler** | **RELEASE FX** (SHIFT + SLIP LOOP): 8 sample pads per deck (one shot, hold, loop, latch). The FX tab has a **SAMPLE VOLUME** slider. |
 
