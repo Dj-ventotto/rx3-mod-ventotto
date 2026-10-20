@@ -15,17 +15,26 @@ Switch the RX3 off and everything is back to stock.
 **Status:** everything below has been tested on a real XDJ-RX3, except the items marked
 *(being tested)*. Features marked **BETA** are switched off by default.
 
-## 🆕 What's new (October 17, 2026)
+## 🆕 Version 1.0 (October 21, 2026)
+
+From now on every release has a number: **1.0** today, then 1.1, 1.2 and so on.
+
+| Update | What changed |
+|---|---|
+| **SHIMMER BEAT FX** *(being tested)* | Choose REVERB, tap the effect name on the BEAT FX screen: it switches to **SHIMMER**, a reverb whose tail rises one octave at every repeat. A message on screen says which one plays. Tap again for the stock REVERB. |
+| **Lighter stems mix** | The stems mix does less work per sample, and the mod now measures how often it runs late, to track down the crackle with pitch or MASTER TEMPO. |
+| **Version numbers** | The Mac app shows its version number (1.0) when it offers an update. |
+
+## Earlier (October 17, 2026)
 
 | Update | What changed |
 |---|---|
 | **Roll locks to the beat grid** | The roll now really follows the MASTER deck's beat grid, from 1/1 (one hit per beat) to 1/32, with no missed hits, also with the pitch fader moved or MASTER TEMPO on. |
 | **Roll keeps time between squares** | Sliding from 1/1 to 1/2 and back to 1/1 stays on the beat, also on tracks without a beat grid. |
 | **Two SOUND COLOR FX at once** | Hold the SOUND COLOR FX button that is on and press another: both effects play, both buttons light, and the COLOR knob drives both. A single press works as stock. |
-| **SHIMMER BEAT FX** *(being tested)* | Tap **REVERB** on the BEAT FX screen and it becomes **SHIMMER**: a reverb whose tail rises one octave at every repeat. Tap again to go back to REVERB. Lv/Depth works as usual. |
 | **Stems app fixes** | Playlists show in tree order, stem preparation no longer fails on some tracks, and writing to the USB stick shows its progress instead of freezing the app. |
 
-## Earlier (October 16, 2026)
+## Before (October 16, 2026)
 
 | Update | What changed |
 |---|---|
@@ -64,7 +73,7 @@ Switch the RX3 off and everything is back to stock.
 | **Roll filter** | While holding, swipe **up** for a resonant high-pass, **down** for a resonant low-pass. |
 | **Roll volume** | With the AUX selector on **PORTABLE**, the **AUX LEVEL** knob sets the roll volume (LINE stays a normal input). |
 | **Two SOUND COLOR FX** | Hold the SOUND COLOR FX that is on and press a second one: both play, both buttons light, and COLOR drives both. Press either one again to keep only the other; press a third one to switch to it alone. |
-| **SHIMMER** *(being tested)* | Tap **REVERB** on the BEAT FX screen to switch it to **SHIMMER**, an octave-up reverb tail; tap again for the stock REVERB. |
+| **SHIMMER** *(being tested)* | With REVERB chosen, tap the effect name on the BEAT FX screen to switch to **SHIMMER**, an octave-up reverb tail; tap again for the stock REVERB. |
 | **BEAT FX on LOW / MID / HIGH** | In the FX tab, choose which bands the Beat FX works on: just the lows, the mids, the highs, or any mix. The rest stays clean. |
 | **Sampler** | **RELEASE FX** (SHIFT + SLIP LOOP): 8 sample pads per deck (one shot, hold, loop, latch). The FX tab has a **SAMPLE VOLUME** slider. |
 
